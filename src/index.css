@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  font-family: "inter", serif;
+  font-weight: 300;
+}
+
+.maxContent{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.tail-plane {
+  background: url("https://cdn.prod.website-files.com/670029dfe54e815631acec08/67002cc809e34f256f04030f_back%20of%20plane.avif") center center no-repeat;
+  background-size: cover;
+}
+.bg-plane {
+  background: url("https://cdn.prod.website-files.com/670029dfe54e815631acec08/67003d27fdf0f2e948ae0f31_flying%202%20bw.avif") center center no-repeat;
+  background-size: cover;
+}
+
+.news-plane-1 {
+  background: linear-gradient(rgba(0, 0, 0, 1)5%, rgba(255, 255, 255, 0.1)50%, rgba(0, 0, 0, 1)95%), url("https://cdn.prod.website-files.com/670029dfe54e815631acec11/67015f94c832b5a7d96ac14b_sunset%201.avif") center  no-repeat;
+  background-size: cover;
+}
+.news-plane-2 {
+  background: linear-gradient(rgba(0, 0, 0, 1)5%, rgba(255, 255, 255, 0.1)50%, rgba(0, 0, 0, 1)95%), url("https://cdn.prod.website-files.com/670029dfe54e815631acec11/67015f0ea96327a0b750b714_hangar.avif")  center no-repeat;
+  background-size: cover;
+}
+.news-plane-3 {
+  background: linear-gradient(rgba(0, 0, 0, 1)5%, rgba(255, 255, 255, 0.1)50%, rgba(0, 0, 0, 1)95%), url("https://cdn.prod.website-files.com/670029dfe54e815631acec11/67015f305f6d846c26236a36_metal.avif") center no-repeat;
+  background-size: cover;
+}
+
+.future-plane {
+  background: linear-gradient(rgba(0, 0, 0, 1)5%, rgba(255, 255, 255, 0.1)50%, rgba(0, 0, 0, 1)95%), url("https://cdn.prod.website-files.com/670029dfe54e815631acec08/67002cc9922a0ab5e0c3a61a_plane%20black%20background.avif") center  no-repeat;
+  background-size: cover;
+}
